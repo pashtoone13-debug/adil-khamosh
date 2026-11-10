@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10091d">
+  <meta name="description" content="د ADiL خاموش شخصي ویب‌سایټ او پورټفولیو">
+  <title>ADiL خاموش | شخصي ویب‌سایټ</title>
+  <style>
+    :root{--bg:#0b0712;--panel:#171023;--panel2:#211432;--purple:#9b5cff;--pink:#d59aff;--text:#f7f1ff;--muted:#b9abc9;--line:#39264f}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 15% 5%,#32164e 0,transparent 35%),radial-gradient(ellipse at 90% 45%,#21113b 0,transparent 32%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#0b0712d9;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+    nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{font-size:1.35rem;font-weight:900;letter-spacing:1px;color:var(--pink)}.links{display:flex;gap:22px;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}.links a:hover{color:white}
+    .hero{min-height:650px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:50px;padding:70px 0}
+    .tag{display:inline-block;padding:7px 15px;border:1px solid #a66aff66;border-radius:30px;color:var(--pink);background:#9b5cff16}
+    h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.15;margin:20px 0 8px}.gradient{background:linear-gradient(90deg,#d9b4ff,#9250ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{color:var(--muted);font-size:1.1rem;max-width:560px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:11px 21px;border-radius:13px;background:linear-gradient(120deg,#873eff,#bd78ff);font-weight:bold;box-shadow:0 8px 30px #8b42ff35;transition:.25s}.btn:hover{transform:translateY(-4px)}.btn.outline{background:transparent;border:1px solid var(--purple);box-shadow:none}
+    .photo-box{position:relative;justify-self:center;width:min(360px,85%);animation:float 5s ease-in-out infinite}.photo-box:before{content:"";position:absolute;inset:-13px;border:2px solid #a65cff88;border-radius:28px;transform:rotate(5deg);z-index:-1;box-shadow:0 0 45px #8c39ff38}
+    .photo-box img{display:block;width:100%;height:470px;object-fit:cover;object-position:center 22%;border-radius:24px;border:1px solid #ffffff30;box-shadow:0 25px 70px #0009}
+    section{padding:75px 0}.section-title{text-align:center;font-size:2rem;margin:0 0 12px}.sub{text-align:center;color:var(--muted);margin:0 0 38px}
+    .card{background:linear-gradient(145deg,#211432eF,#130d1f);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 15px 45px #0003}
+    .about{max-width:800px;margin:auto;text-align:center;color:var(--muted)}
+    .skills{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.skill-top{display:flex;justify-content:space-between;direction:ltr;margin-bottom:8px;font-weight:bold}.track{height:10px;background:#342543;border-radius:20px;overflow:hidden;direction:ltr}.bar{height:100%;width:0;background:linear-gradient(90deg,#7738ed,#d29aff);border-radius:20px;transition:width 1.5s ease}
+    .contacts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.contact{text-align:center;overflow-wrap:anywhere}.contact strong{display:block;color:var(--pink);margin-bottom:5px}
+    footer{text-align:center;padding:25px;color:var(--muted);border-top:1px solid #ffffff12}
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}.reveal.show{opacity:1;transform:none}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}
+    @media(max-width:760px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}.links{gap:13px;font-size:.83rem}.hero{grid-template-columns:1fr;text-align:center;padding:55px 0;gap:35px}.lead{margin:auto}.buttons{justify-content:center}.photo-box{width:min(300px,82%)}.photo-box img{height:390px}.skills{grid-template-columns:1fr}.contacts{grid-template-columns:1fr}section{padding:55px 0}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="logo" href="#home">ADiL خاموش</a>
+  <div class="links"><a href="#home">کور</a><a href="#about">زما په اړه</a><a href="#skills">مهارتونه</a><a href="#contact">اړیکه</a></div>
+</nav></div></header>
+<main>
+  <div class="wrap hero" id="home">
+    <div class="reveal">
+      <span class="tag">زما شخصي پورټفولیو</span>
+      <h1>سلام! زه <span class="gradient">ADiL</span> یم</h1>
+      <h2 style="margin:0;color:var(--pink)">ADiL خاموش</h2>
+      <p class="lead">ښه راغلاست زما شخصي ویب‌سایټ ته. زه د پروګرامنګ او ټکنالوژۍ سره مینه لرم او هره ورځ د نوو مهارتونو د زده‌کړې هڅه کوم.</p>
+      <div class="buttons"><a class="btn" href="#contact">اړیکه راسره ونیسئ</a><a class="btn outline" href="#skills">زما مهارتونه</a></div>
+    </div>
+    <div class="photo-box reveal"><img src="assets/adil-photo.jpeg" alt="د ADiL خاموش انځور"></div>
+  </div>
+  <section id="about"><div class="wrap">
+    <h2 class="section-title reveal">زما په اړه</h2><p class="sub reveal">یو لنډ پېژندنه</p>
+    <div class="card about reveal">زه ADiL خاموش یم. د ویب ډیزاین او پروګرامنګ په برخه کې زده‌کړه او تمرین کوم. زما موخه دا ده چې خپل مهارتونه نور هم پیاوړي کړم او ښکلې، ګټورې او چټکې ویب‌پاڼې جوړې کړم.</div>
+  </div></section>
+  <section id="skills"><div class="wrap">
+    <h2 class="section-title reveal">زما مهارتونه</h2><p class="sub reveal">د مهارتونو کچه</p>
+    <div class="skills">
+      <div class="card reveal"><div class="skill-top"><span>HTML</span><span>95%</span></div><div class="track"><div class="bar" data-width="95%"></div></div></div>
+      <div class="card reveal"><div class="skill-top"><span>CSS</span><span>75%</span></div><div class="track"><div class="bar" data-width="75%"></div></div></div>
+      <div class="card reveal"><div class="skill-top"><span>Java</span><span>50%</span></div><div class="track"><div class="bar" data-width="50%"></div></div></div>
+      <div class="card reveal"><div class="skill-top"><span>JavaScript</span><span>30%</span></div><div class="track"><div class="bar" data-width="30%"></div></div></div>
+      <div class="card reveal"><div class="skill-top"><span>C++</span><span>85%</span></div><div class="track"><div class="bar" data-width="85%"></div></div></div>
+    </div>
+  </div></section>
+  <section id="contact"><div class="wrap">
+    <h2 class="section-title reveal">اړیکه</h2><p class="sub reveal">د اړیکې لارې</p>
+    <div class="contacts">
+      <a class="card contact reveal" href="https://wa.me/93780755113" target="_blank" rel="noopener"><strong>WhatsApp</strong>0093780755113</a>
+      <a class="card contact reveal" href="mailto:pashtoone.13@gmail.com"><strong>Gmail</strong>pashtoone.13@gmail.com</a>
+      <div class="card contact reveal"><strong>Facebook</strong>Adil Zalal</div>
+    </div>
+  </div></section>
+</main>
+<footer>© <span id="year"></span> ADiL خاموش — ټول حقوق خوندي دي.</footer>
+<script>
+  document.getElementById('year').textContent=new Date().getFullYear();
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    if(entry.isIntersecting){entry.target.classList.add('show');
+      const bar=entry.target.querySelector('.bar'); if(bar) bar.style.width=bar.dataset.width;
+      observer.unobserve(entry.target);
+    }
+  }),{threshold:.14});
+  document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body></html>
